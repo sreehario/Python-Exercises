@@ -1,0 +1,17 @@
+table th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table{
+    width: 100%;
+}
+
+.heading{
+    text-align: center;
+    background-color: brown;
+}
+
+.name{
+    background-color: darkslategrey;
+}
