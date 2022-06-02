@@ -1,0 +1,40 @@
+
+ button {
+    background-color: brown;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+    ;
+  }
+#red:hover {
+    background-color:red;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    
+}
+
+#blue:hover {
+    background-color: blue;
+    border: 2px solid blue;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+#yellow:hover {
+    background-color: yellow;
+    border: 2px solid yellow;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+#green:hover {
+    background-color:green;
+    border: 2px solid green;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
