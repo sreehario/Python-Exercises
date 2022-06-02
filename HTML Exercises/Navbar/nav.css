@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: inline-block;
+    background-color: lightsteelblue;
+    height: 80px;
+    width: 100%;
+}
+
+#home{
+    height: 36px;
+    width: 109px;
+    margin-left: 376px;
+    margin-top: 14px;
+}
+
+#players{
+    height: 36px;
+    width: 109px;
+    margin-left: 44px;
+    margin-top: 14px;
+}
+
+#club{
+    height: 36px;
+    width: 109px;
+    margin-left: 44px;
+    margin-top: 14px;
+}
+
+#contact{
+    height: 36px;
+    width: 109px;
+    margin-left: 44px;
+    margin-top: 14px;
+}
+
+#body{
+    display: inline-block;
+    background-color: aqua;
+    height: 900px;
+    width: 100%;
+    
+
+}
+
+#footer{
+    display: inline-block;
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+    
+}
+h3{
+    padding-top: 2px;
+    text-align: center;
+}

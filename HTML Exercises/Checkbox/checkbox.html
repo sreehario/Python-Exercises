@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <div>
+    <input type="checkbox" name="" id="checkbox" onclick="selectall()"><br>
+    <label for="" >Select all</label><br>
+    <input type="checkbox" name="" id="messi">
+    <label for="">Messi</label><br>
+    <input type="checkbox" name="" id="ronaldo">
+    <label for="">Ronaldo</label><br>
+    <input type="checkbox" name="" id="mbappe">
+    <label for="">Mbappe</label>
+    </div>
+    
+    <script>
+        function selectall(){
+            let a = document.getElementById('checkbox');
+            if(a.checked===true){
+                document.getElementById("messi").checked=true;
+                document.getElementById("ronaldo").checked=true;
+                document.getElementById("mbappe").checked=true;
+                
+            }
+            else{
+                document.getElementById("messi").checked=false;
+                document.getElementById("ronaldo").checked=false;
+                document.getElementById("mbappe").checked=false;
+                
+            }
+        }
+    </script>
+</body>
+</html>
